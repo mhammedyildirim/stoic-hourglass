@@ -1,5 +1,7 @@
 # Stoic Hourglass
 
+![Stoic Hourglass](screenshot.png)
+
 A pixel-art GNOME Shell extension that shows the progress of the year in the top bar, with a new Stoic quote every day.
 
 - **Panel:** an hourglass whose sand runs down over the year, a season-coloured progress bar and the percentage.
