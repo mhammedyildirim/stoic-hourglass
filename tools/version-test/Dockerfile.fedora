@@ -1,0 +1,3 @@
+ARG BASE
+FROM ${BASE}
+RUN dnf -y install --setopt=install_weak_deps=False gnome-shell dbus-daemon glib2 mesa-dri-drivers glibc-langpack-en && dnf clean all

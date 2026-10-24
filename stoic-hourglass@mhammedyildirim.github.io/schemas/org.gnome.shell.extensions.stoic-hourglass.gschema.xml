@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: GPL-2.0-or-later -->
+<!-- SPDX-FileCopyrightText: 2026 mhammedyildirim -->
+<schemalist>
+  <schema id="org.gnome.shell.extensions.stoic-hourglass" path="/org/gnome/shell/extensions/stoic-hourglass/">
+    <key name="language" type="s">
+      <choices>
+        <choice value="auto"/>
+        <choice value="tr"/>
+        <choice value="en"/>
+      </choices>
+      <default>'auto'</default>
+      <summary>Language</summary>
+      <description>Language of the widget: auto (session language), tr or en.</description>
+    </key>
+  </schema>
+</schemalist>

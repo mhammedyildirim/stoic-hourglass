@@ -1,0 +1,4 @@
+ARG BASE
+FROM ${BASE}
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y --no-install-recommends gnome-shell gnome-shell-extension-prefs dbus dbus-user-session libglib2.0-bin mesa-utils libgl1-mesa-dri locales && sed -i 's/# en_US.UTF-8/en_US.UTF-8/' /etc/locale.gen && locale-gen && rm -rf /var/lib/apt/lists/*

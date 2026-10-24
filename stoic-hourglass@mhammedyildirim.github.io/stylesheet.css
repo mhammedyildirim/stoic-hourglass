@@ -1,0 +1,15 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+/* SPDX-FileCopyrightText: 2026 mhammedyildirim */
+
+/* Drop the theme's popup panel so only the pixel-art card is visible. */
+.popup-menu-content.stoic-hourglass-menu {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.popup-menu-item.stoic-hourglass-card-item {
+    padding: 0;
+}

@@ -1,0 +1,8 @@
+{
+  "uuid": "stoic-hourglass@mhammedyildirim.github.io",
+  "name": "Stoic Hourglass",
+  "description": "Pixel-art year progress in the top bar with a daily Stoic quote.\n\nClicking the quote copies it to the clipboard. Right-click the indicator to choose the language.",
+  "shell-version": ["46", "47", "48", "49", "50", "51"],
+  "url": "https://github.com/mhammedyildirim/stoic-hourglass",
+  "settings-schema": "org.gnome.shell.extensions.stoic-hourglass"
+}
